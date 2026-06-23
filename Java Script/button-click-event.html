@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="day11(JS).js"></script>
+    <style>
+        body{
+            background-color: black;
+        }
+        #h1{
+            text-align: center;
+            color: white;
+        }
+        #b1{
+            width: 100px;
+            height: 30px;
+            background-color: green;
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+        #b1:hover{
+            background-color: white;
+            border: 3px solid green;
+            color: green;
+            font-weight: bold;
+        }
+        #b2:hover{
+            background-color: white;
+            border: 3px solid red;
+            color: red;
+            font-weight: bold;
+        }
+        #b2{
+            width: 100px;
+            height: 30px;
+            background-color: red;
+            border-radius: 10px;
+            border: 2px solid white;
+            
+        }
+    </style>
+</head>
+<body>
+    <H1 id="h1">Is JavaScript is easy..?</H1>
+    <center>
+    <button id="b1">Yes</button>
+    <button id="b2">No</button>
+    </center>
+</body>
+<script>
+    document.getElementById('b1').onclick = function(){
+        document.getElementById('h1').innerHTML="Yes.. JavaScript is Easy";
+    }
+    document.getElementById('b2').onclick = function(){
+        document.getElementById('h1').innerHTML="No, If you not Practice";
+    }
+</script>
+</html>
