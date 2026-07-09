@@ -1,0 +1,96 @@
+body {
+  margin: 0%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.box {
+  background-color: rgb(22, 193, 240);
+  height: 30vh;
+  width: 15vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 200px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.main1 {
+  top: 35vh;
+  left: 2vw;
+  background-color: rgb(28, 102, 248);
+}
+.main:hover .main1 {
+  background-color: white;
+  color: rgb(28, 102, 248);
+  border: 3px rgb(28, 102, 248) solid;
+  transform: rotate(10deg);
+}
+.main2 {
+  top: 35vh;
+  left: 18vw;
+  background-color: rgb(246, 42, 42);
+}
+.main:hover .main2 {
+  background-color: white;
+  color: rgb(246, 42, 42);
+  border: 3px rgb(246, 42, 42) solid;
+  transform: rotate(-10deg);
+}
+.main3 {
+  top: 35vh;
+  left: 34vw;
+  background-color: yellow;
+}
+.main:hover .main3 {
+  background-color: white;
+  color: yellow;
+  border: 3px yellow solid;
+  transform: rotate(10deg);
+}
+.main4 {
+  top: 35vh;
+  left: 50vw;
+  background-color: rgb(28, 102, 248);
+}
+.main:hover .main4 {
+  background-color: white;
+  color: rgb(28, 102, 248);
+  border: 3px rgb(28, 102, 248) solid;
+  transform: rotate(-10deg);
+}
+.main5 {
+  top: 35vh;
+  left: 66vw;
+  background-color: rgb(74, 239, 74);
+}
+.main:hover .main5 {
+  background-color: white;
+  color: rgb(74, 239, 74);
+  border: 3px rgb(74, 239, 74) solid;
+  transform: rotate(10deg);
+}
+.main6 {
+  top: 35vh;
+  left: 82vw;
+  background-color: rgb(246, 42, 42);
+}
+.main:hover .main6 {
+  background-color: white;
+  color: rgb(246, 42, 42);
+  border: 3px rgb(246, 42, 42) solid;
+  transform: rotate(-10deg);
+}
+img {
+  width: 100px;
+  position: fixed;
+}
+.main22 {
+  height: 100vh;
+  width: 100vw;
+  background-color: blueviolet;
+}
